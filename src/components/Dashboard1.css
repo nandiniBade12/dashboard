@@ -1,0 +1,223 @@
+/* Style for the left column */
+
+.left-column {
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 15%;
+
+    height: 100%;
+
+    background-color: #fff;
+
+    padding: 20px;
+
+    overflow-y: auto;
+
+  }
+
+  /* Style for h1 elements */
+
+  h1 {
+
+    text-align: center;
+
+    color: black;
+
+  }
+
+  /* Style for the top bar */
+
+  .top-bar {
+
+    margin-top: 10px;
+
+    padding: 10px;
+
+    display: flex;
+
+    justify-content: space-between; /* Adjusted for better alignment */
+
+    align-items: center;
+
+    background-color: #f0f0f0;
+
+    width: 100%;
+
+  }
+
+ 
+
+  /* Style for text inputs */
+
+  input[type="text"] {
+
+    width: 100%;
+
+    padding: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+
+    outline: none;
+
+    box-sizing: border-box;
+
+  }
+
+  /* Style for paragraphs in the left column */
+
+  .left-row {
+
+    margin-bottom: 10px;
+
+    text-align: justify;
+
+  }
+
+  .left-row p {
+
+    margin: 0;
+
+    padding: 5px;
+
+    cursor: pointer;
+
+  }
+
+  .left-row p:hover {
+
+    background-color: #ddd;
+
+    border-radius: 5px;
+
+  }
+
+  /* Style for the dashboard container */
+
+  .dashboard-container {
+
+    text-align: center;
+
+    margin: 0 auto;
+
+    max-width: 800px;
+
+    padding: 20px;
+
+  }
+
+  /* Style for dropdowns */
+
+  .dashboard-dropdown {
+
+    display: inline-block;
+
+    margin-right: 40px;
+
+    position: relative;
+
+  }
+
+  .dashboard-dropdown select {
+
+    padding: 5px;
+
+    font-size: 16px;
+
+    border: none;
+
+    border-bottom: 1px solid #007bff;
+
+    border-radius: 50;
+
+    background-color: transparent;
+
+    color: #007bff;
+
+    cursor: pointer;
+
+  }
+
+  .dashboard-dropdown select:focus {
+
+    border-color: #007bff;
+
+    color: #007bff;
+
+  }
+
+  /* Style for the table */
+
+  .dashboard-table {
+
+    width: 120%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+
+  }
+
+  .dashboard-table th,
+
+  .dashboard-table td {
+
+    padding: 10px;
+
+    border: 1px solid #ccc;
+
+  }
+
+  .dashboard-table th {
+
+    background-color: #6b3e87;
+
+    color: white;
+
+  }
+
+  .dashboard-table tr:nth-child(even) {
+
+    background-color: #f2f2f2;
+
+  }
+
+ 
+
+  /* Style for the bell icon button */
+
+  #notif {
+
+    background-color: transparent;
+
+    font-size: 24px;
+
+    border: none;
+
+    cursor: pointer;
+
+    outline: none;
+
+  }
+
+ 
+
+  #graph-icon {
+
+    font-size: 24px;
+
+    cursor: pointer;
+
+    margin-left: 900px; /* Add margin to create space between the dropdown and the icon */
+
+  }
+
+  /* Additional styles for specific elements or classes can be added here */
